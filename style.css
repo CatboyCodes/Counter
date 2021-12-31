@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: rgb(97, 97, 97);
+    font-family: 'Fredoka One', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.counter{
+    background: white;
+    padding: 40px 40px;
+    border-radius: 10px;
+}
+
+.counter h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.symbol h3,button{
+    display: inline;
+}
+
+button{
+    padding: 20px 40px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+button p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.symbol h3{
+    border: 2px solid black;
+    padding: 20px 40px;
+    border-radius: 10px;
+   
+}
+
+.reset{
+    color: white;
+    background:rgb(49, 49, 56);
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.add{
+    background: rgb(0, 240, 0);
+    transition: background 0.3s;
+}
+
+.sub{
+    background: rgb(240, 0, 0);
+    transition: background 0.3s;
+}
+
+.add:hover{
+    background: rgb(0,200,0);
+}
+
+.sub:hover{
+    background: rgb(200,0,0);
+}
+
+.reset:hover{
+    background: rgb(35, 35, 39);
+}
